@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul a{
+    font-size: 18px;
+    font-weight: bold;
+    color: dimgray;
+    margin-left: 15px;
+    transition: 1s;
+}
+
+header{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 25px auto 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.active{
+    color: brown;
+}
+
+nav ul a:hover{
+    color: red;
+}
+
+.header_banner{
+    width: 100%;
+    height: 272px;
+    object-fit: cover;
+    margin-top: 12px;
+}
+
+.news{
+    display: flex;
+}
+
+.news_item{
+    width: 25%;
+    flex-direction: column;
+    display: flex;
+}
+
+.news_pic{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.news_title{
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+.news_desc{
+    color: white;
+}
+
+main{
+    margin: 42px 0 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.red{
+    background: red;
+}
+
+.purple{
+    background: purple;
+}
+
+.blue{
+    background: blue;
+}
+
+.green{
+    background: green;
+}
+
+.main_news_title{
+    margin: 42px 0 40px;
+    text-align: center;
+    font-size: 22px;
+    color: gray;
+
+}
+.silver{
+    background: rgb(212, 209, 209);
+
+}
+.main_news_pick{
+    width: 530px;
+    object-fit: cover;
+    margin: 30px;
+
+
+}
+.main_news_item_title{
+    font-size: 22px;
+    color: rgb(165, 138, 80);
+    margin-bottom: 30px;
+    text-align: start;
+}
+.main_news_desc{
+    font-size: 20px;
+    color: rgb(189, 140, 107);
+    text-align: start;
+}
+.main_news_container{
+    margin: 20px 0 30px;
+}
+.footer_content{
+    display: flex;
+    margin: auto;
+    padding: 0 15px;
+    justify-content: space-between;
+    width: 1140px;
+}
+
+footer{
+    margin: 50px;
+    padding: 28px 0;
+    background: rgb(65, 63, 63);
+}
+
+.footer_content ul a{
+    color: white;
+}
